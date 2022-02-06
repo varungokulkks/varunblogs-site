@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap");
+.cardmain {
+  width: 50% !important;
+  background-color: #f1f1f1 !important;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin: auto;
+  .card-title {
+    font-family: "Lato", sans-serif;
+    font-size: 40px;
+  }
+  .card-content {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+  }
+  .card_image {
+    border: 50px solid white !important;
+    width: 90% !important;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .cardbody {
+    width: 100% !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .likeicon {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between !important;
+      .likecount {
+        padding: 5px 20px;
+        font-family: "Poppins", sans-serif;
+        font-size: 30px;
+        position: relative;
+      }
+    }
+  }
+}

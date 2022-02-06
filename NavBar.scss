@@ -1,0 +1,24 @@
+.navBar {
+  color: #ffff;
+  width: 100%;
+  .navbars {
+    height: 10%;
+    .mailnav {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      .title {
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+      }
+      .profile {
+        margin: 0 20px;
+        .icon {
+          margin: 0 10px;
+        }
+      }
+    }
+  }
+}
